@@ -1,0 +1,76 @@
+
+
+.gomo-bg-gomoBg {
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  background-color: rgb(43, 33, 64);
+}
+
+
+.gomo-text-gomoTextfff {
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(255, 255, 255);
+  width: 67.5rem;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 3.75rem;
+  padding-top: 1.5rem;
+  min-height: calc(100vh - 27.875rem);
+}
+
+
+.gomo-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gomo-pt-[10px] {
+  padding-top: 10px;
+}
+
+.gomo-pb-10 {
+  padding-bottom: 10px;
+}
+
+
+.gomo-block {
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  display: none;
+}
+
+
+.gomo-hidden {
+  display: none;
+}
+
+.gomo-mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+
+
+.gomo-flex {
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+
+.gomo-mb-4 {
+  margin-bottom: 1rem; 
+}
+
+.gomo-mb-6 {
+  margin-bottom: 1.5rem;
+}

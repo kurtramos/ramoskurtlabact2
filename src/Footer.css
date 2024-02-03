@@ -1,0 +1,122 @@
+.component-container {
+    background-color: #201531;
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+  }
+  
+  .footer-content {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 3.5rem 0px 0px;
+    height: 22.875rem;
+    width: 67.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .logo-img {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    vertical-align: middle;
+    max-width: 100%;
+    display: block;
+    height: 3.125rem;
+    marginBottom: 4rem;
+  }
+  
+  .flex-container {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(171 166 179/1);
+    font-weight: 500;
+  }
+  
+  .grid-container {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    display: grid;
+    row-gap: 1.5rem;
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    column-gap: 2rem;
+  }
+  
+  .menu-item {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    width: 12.5rem;
+  }
+  
+  .menu-item:hover {
+    cursor: pointer;
+  }
+  
+  .menu-item.order-1 {
+    order: 3;
+  }
+  
+  .menu-item.order-2 {
+    order: 1;
+  }
+  
+  .menu-item.order-3 {
+    order: 2;
+  }
+  
+  .social-container {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+  }
+  
+  .follow-text {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-icons {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    display: flex;
+  }
+  
+  .social-icons a {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    text-decoration: inherit;
+    color: inherit;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  .social-icons img {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    display: block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    margin-right: 3.75rem;
+  }
+  
+  .social-icons img:last-child {
+    margin-right: 0px;
+  }
+  
+  html {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    line-height: 1.5;
+    text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: proxima-nova;
+  }
+  
+  body {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    margin: 0px;
+    line-height: inherit;
+  }
+  
