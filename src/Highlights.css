@@ -1,0 +1,37 @@
+.divStyle {
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  display: flex;
+  color: rgb(255 255 255 / 1);
+}
+
+.imgStyle1 {
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  display: wrap;
+  vertical-align: middle;
+  max-width: 100%;
+  justify-content: space-between;
+  height: auto;
+  margin-bottom: 1.625rem;
+  width: 20.8125rem;
+  margin-left: 13rem;
+}
+
+html {
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  line-height: 1.5;
+  text-size-adjust: 100%;
+  tab-size: 4;
+  font-family: proxima-nova;
+}
+
+body {
+  border: 0px solid rgb(229, 231, 235);
+  box-sizing: border-box;
+  margin: 0px;
+  line-height: inherit;
+}

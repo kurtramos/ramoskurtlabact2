@@ -1,0 +1,112 @@
+.divStyle {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    display: flex;
+    color: rgb(255 255 255 / 1);
+    justify-content: left;
+    padding-left: 5rem;
+    gap: 20px;
+  }
+  
+  .imgStyle {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    display: block;
+    vertical-align: left;
+   
+    height: auto;
+    margin-left: 29.5rem;
+    margin-bottom: 0px;
+    margin-right: 3.125rem;
+    width: 12.5rem;
+  }
+  
+  .textDiv {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 3.75rem;
+    width: auto;
+  }
+  
+  .textStyle {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+  
+  .subTextStyle {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    line-height: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 2rem;
+  }
+  
+  .flexDiv {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    display: flex;
+  }
+  
+  .linkStyle {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    text-decoration: inherit;
+    color: inherit;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  
+  html {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    line-height: 1.5;
+    text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: proxima-nova;
+  }
+  
+  body {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    margin: 0px;
+    line-height: inherit;
+  }
+  
+  
+  
+  .gomo-flex-container {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    display: flex;
+    color: rgb(255, 255, 255); 
+    gap: 1rem;
+  }
+  
+  .gomo-link {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    textDecoration: inherit;
+    color: inherit;
+    WebkitTapHighlightColor: rgba(0, 0, 0, 0);
+  }
+  
+  .gomo-image {
+    border: 0px solid rgb(229, 231, 235);
+    box-sizing: border-box;
+    display: block;
+    verticalAlign: middle;
+    maxWidth: 100%;
+    height: auto;
+    marginLeft: auto;
+    marginBottom: 0.5rem;
+    marginRight: 1rem;
+  }

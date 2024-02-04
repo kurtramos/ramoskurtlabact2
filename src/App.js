@@ -22,32 +22,18 @@
 //   );
 // }
 
-// export default App;
-
-/*import "./styles.css";
-import Header from "./Header";
-import Footer from "./Footer";
-
-export default function App() {
-  return (
-    <div className="App">
-      <Header />
-
-      <Footer />
-   <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
-}
- */
 import React from "react";
 import Header from "./Header";
 import MainOffer from "./MainOffer";
-
+import Data from "./Data";
+import Highlights from "./Highlights";
 import GetOffers from "./GetOffers";
+import Download from "./Download";
 import Footer from "./Footer";
+// import HotOfferData from "./HotOfferData";
+// import HotOffer from "./HotOffer";
 
-export default function App() {
+function App() {
   const menuItems = [
     "Get GOMO SIM",
     "Get Offers",
@@ -67,10 +53,14 @@ export default function App() {
         mobileButtonLabel="Get GOMO SIM"
       />
       <MainOffer />
-
-      <GetOffers />
+      <Data />
+      {/* <GetOffers /> */}
+      {/* <HotOfferData /> */}
+      <Highlights />
+      <Download />
       <Footer />
-
     </div>
   );
 }
+
+export default App;

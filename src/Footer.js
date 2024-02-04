@@ -1,51 +1,76 @@
-import React from "react";
 import "./Footer.css";
 
-export default function Footer() {
+const FooterLinkSection = ({ links }) => (
+  <div className="grid-container">
+    {links.map((link, index) => (
+      <div key={index} className={`grid-item ${link.className}`}>
+        {link.title}
+      </div>
+    ))}
+  </div>
+);
+
+const SocialIcons = ({ socialMedia }) => (
+  <div className="social-icons">
+    {socialMedia.map((media, index) => (
+      <a
+        key={index}
+        href={media.url}
+        target="_blank"
+        rel="noreferrer"
+        className="social-icon"
+      >
+        <img src={media.icon} alt={media.name} />
+      </a>
+    ))}
+  </div>
+);
+
+function Footer() {
+  const footerLinks = [
+    { title: "About GOMO", className: "about-gomo" },
+    { title: "Terms & Conditions", className: "terms-conditions" },
+    { title: "ASC Ref. Codes", className: "asc-ref" },
+    { title: "Privacy Policy", className: "privacy-policy" },
+  ];
+
+  const socialMediaLinks = [
+    {
+      name: "Facebook",
+      url: "https://www.facebook.com/getgomo/",
+      icon: "https://www.gomo.ph/homepage/Facebook.svg",
+    },
+    {
+      name: "Twitter",
+      url: "https://twitter.com/gomo_ph",
+      icon: "https://www.gomo.ph/homepage/Twitter.svg",
+    },
+    {
+      name: "Instagram",
+      url: "https://www.instagram.com/gomo.ph/",
+      icon: "https://www.gomo.ph/homepage/Instagram.svg",
+    },
+    {
+      name: "TikTok",
+      url: "https://www.tiktok.com/@gomo.ph",
+      icon: "https://www.gomo.ph/homepage/TikTok.svg",
+    },
+  ];
+
   return (
     <>
-      <div className="component-container">
+      <div className="gomo-bg main-container">
         <div className="footer-content">
           <img
-            className="logo-img"
+            className="gomo-h gomo-block hover-gomo-cursor-pointer gomo-mb-6 lg-gomo-mb logo-image"
             src="https://www.gomo.ph/homepage/gomo_logo.svg"
             alt="GOMO Logo"
           />
           <div className="flex-container">
-            <div className="grid-container">
-              <div className="menu-item order-1">About GOMO</div>
-              <div className="menu-item order-2">ASC Ref. Codes</div>
-              <div className="menu-item order-1">Terms & Conditions</div>
-              <div className="menu-item order-3">Privacy Policy</div>
-            </div>
-            <div className="social-container">
-              <div className="follow-text">Follow Us</div>
-              <div className="social-icons">
-                <a href="https://www.facebook.com/getgomo/" target="_blank">
-                  <img
-                    src="https://www.gomo.ph/homepage/Facebook.svg"
-                    alt="Facebook"
-                  />
-                </a>
-                <a href="https://twitter.com/gomo_ph" target="_blank">
-                  <img
-                    src="https://www.gomo.ph/homepage/Twitter.svg"
-                    alt="Twitter"
-                  />
-                </a>
-                <a href="https://www.instagram.com/gomo.ph/" target="_blank">
-                  <img
-                    src="https://www.gomo.ph/homepage/Instagram.svg"
-                    alt="Instagram"
-                  />
-                </a>
-                <a href="https://www.tiktok.com/@gomo.ph" target="_blank">
-                  <img
-                    src="https://www.gomo.ph/homepage/TikTok.svg"
-                    alt="TikTok"
-                  />
-                </a>
-              </div>
+            <FooterLinkSection links={footerLinks} />
+            <div className="follow-us-section">
+              <div className="follow-us-title">Follow Us</div>
+              <SocialIcons socialMedia={socialMediaLinks} />
             </div>
           </div>
         </div>
@@ -53,3 +78,5 @@ export default function Footer() {
     </>
   );
 }
+
+export default Footer;

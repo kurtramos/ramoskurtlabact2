@@ -1,14 +1,45 @@
 import React from "react";
-import "./GetOffers.css";
 
-export default function GetOffers() {
+export default function Component() {
   return (
     <>
-      <div className="gomo-bg-gomoBg">
-        <div className="gomo-text-gomoTextfff gomo-mx-auto gomo-pt-[10px] gomo-pb-10 gomo-px-5 lg:gomo-px-0 lg:gomo-pb-[60px] lg:gomo-w-[1080px] lg:gomo-pt-6 data-offer">
+      <div
+        className="gomo-bg-gomoBg"
+        style={{
+          border: "0px solid rgb(229, 231, 235)",
+          boxSizing: "border-box",
+          backgroundColor: "rgb(43 33 64/1)",
+        }}
+      >
+        <div
+          className="gomo-text-gomoTextfff gomo-mx-auto gomo-pt-[10px] gomo-pb-10 gomo-px-5 lg:gomo-px-0 lg:gomo-pb-[60px] lg:gomo-w-[1080px] lg:gomo-pt-6 data-offer"
+          style={{
+            border: "0px solid rgb(229, 231, 235)",
+            boxSizing: "border-box",
+            marginLeft: "auto",
+            marginRight: "auto",
+            color: "rgb(255 255 255/1)",
+            width: "67.5rem",
+            paddingLeft: "0px",
+            paddingRight: "0px",
+            paddingBottom: "3.75rem",
+            paddingTop: "1.5rem",
+            minHeight: "calc(100vh - 27.875rem)",
+          }}
+        >
           <img
             className="gomo-block lg:gomo-hidden gomo-mb-6 gomo-w-full"
             src="https://gomocdn-prod.lotusflare.com/uploads/1721679896610_pic_cdd3a807e0.jpg?updated_at=2023-03-27T05:57:15.868Z"
+            style={{
+              border: "0px solid rgb(229, 231, 235)",
+              boxSizing: "border-box",
+              verticalAlign: "middle",
+              maxWidth: "100%",
+              height: "auto",
+              marginBottom: "1.5rem",
+              width: "100%",
+              display: "none",
+            }}
           />{" "}
           <div
             style={{

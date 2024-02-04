@@ -1,7 +1,6 @@
-import React from "react";
 import "./Header.css";
 
-export default function Component() {
+function Header() {
   return (
     <>
       <div className="gomo-bg-gomoPurple header-content gomo-w-full header">
@@ -59,3 +58,5 @@ export default function Component() {
     </>
   );
 }
+
+export default Header;
